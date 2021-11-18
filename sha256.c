@@ -1,3 +1,7 @@
+/*ENEB 451 - Network Security
+Project 1 - SHA256
+Ricardo Rabello*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -27,8 +31,8 @@
 //DEBBUGING
 #define DEBUG_PRINT
 
-//function prototypes
-int main_menu(unsigned char *data);
+    //function prototypes
+    int main_menu(unsigned char *data);
 void sha256(unsigned char *data, unsigned int data_size, unsigned char *hash);
 void print_hash(unsigned char *hash);
 
