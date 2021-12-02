@@ -32,7 +32,7 @@ Ricardo Rabello*/
 #define DEBUG_PRINT
 
     //function prototypes
-    int main_menu(unsigned char *data);
+int main_menu(unsigned char *data);
 void sha256(unsigned char *data, unsigned int data_size, unsigned char *hash);
 void print_hash(unsigned char *hash);
 
@@ -379,11 +379,7 @@ void sha256(unsigned char *data, unsigned int data_size, unsigned char *hash)
                 }
                 printf("\033[0m"); //default
                 printf("\n");
-            #endif
-            
-
-
-
+            #endif        
         }//end of for loop
     }//end of for loop    
 }//end of function

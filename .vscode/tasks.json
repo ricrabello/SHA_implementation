@@ -9,10 +9,10 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "/build/${fileBasenameNoExtension}"//"${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "/build/${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"
